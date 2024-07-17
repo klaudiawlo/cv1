@@ -1,0 +1,4 @@
+// konwersja z px do rem
+@mixin font-size($value) {
+    font-size: ($value / 16) + rem;
+}
